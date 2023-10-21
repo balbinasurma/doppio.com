@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta name="description" content="DOPPIO">
+    <meta name="keywords" content="kawa">
+    <meta name="author" content="xxxx">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta charset="UTF-8">
+    <title>In-line</title>
+    <link rel="stylesheet" href="style.css" type="text/css"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="fontello.css"type="text/css"/>
+
+</head>
+
+
+  <body>
+    <div class="wrapper">
+            <div class="headerindex">
+                SELL-SERVICE tel. (+48) 22 240 29 09
+                    <div class="logo">
+                        <span id= "logos"; style= "color: white;"></span><span id= "logos"; style= "color: black;"></span>
+                    </div>
+                    
+                  
+                   
+                    <button class="burger">
+                            <div class="line"></div>
+                            <div class="line"></div>
+                            <div class="line"></div>
+                    </button>
+
+            </div>
+
+            <div class= "nav">
+                    <ol class="active">
+                            <li><a href="pp.html">About coffee</a></li>
+                            <li><a href="ps.html">Products</a></li>
+                            <li><a href="ps.html">Olive oil</a></li>
+                            <li><a href="mp.html">Coffee machine service</a></li>
+                            <li><a href="blog.html">Contact</a></li>
+                    </ol>
+
+          </div>
+          <script>
+
+          const mobileNav = document.querySelector('.ul');
+          const burgerBtn = document.querySelector('.burger');
+
+          burgerBtn.addEventListener('click', function(){
+            mobileNav.classList.toggle('active');
+          })
+          </script>
+
+
+            <script src= "jquery-3.6.0.min.js"></script>
+                    <script>
+                    $(document).ready(function() {
+                    var NavY = $('.nav').offset().top;
+
+                    var stickyNav = function(){
+                    var ScrollY = $(window).scrollTop();
+
+                    if (ScrollY > NavY) {
+                    $('.nav').addClass('sticky');
+                    } else {
+                    $('.nav').removeClass('sticky');
+                    }
+                    };
+
+                    stickyNav();
+
+                    $(window).scroll(function() {
+                    stickyNav();
+                    });
+                    });
+                    </script>
+
+            <div class="boxindex1">
+                
+                   <a href="blog.html"><img src="blank1.jpg"></a>
+                    <div class= "contentindex1">
+                        DOPPIO CAFFE SERVICE is a Polish company specializing in the HoReCa industry and servicing 
+                        coffee machines of such brands as Lavazza, Saeco, De'Longhi, Siemens, Miele, Krups, Bosch. 
+                        We are also an importer of Italian coffees and Cutrera olive oil. We have been a distributor
+                         of Italian Lavazza coffee and Miscela d'Oro coffee for over 10 years. We offer coffee beans, 
+                         coffee in Nespresso capsules, Lavazza capsules and coffee in e.s.e. pods. Wholesale and retail 
+                         sale of coffee. Our offer includes coffee machines for offices and catering. We currently employ
+                        highly qualified employees in the following departments: sales, customer service, service and accounting. 
+                        Our young, professional team, regularly trained at manufacturers' offices, is guided by the principle of 
+                        meeting customer needs. Thanks to many years of experience, we provide services of the highest quality. 
+                        Many customers have already trusted us, you can also see that it is worth using our services! OUR GOAL is
+                         comprehensive customer service as part of the services provided.
+                      <button class="translate">
+                        <a href="index.html">Przetłumacz</a>
+                        </button>
+                            <div class= "arrow"><a href="gallerymp.html">
+                              <span></span>
+                              <span></span>
+                              <span></span>
+                            </div></a>
+                    </div>
+            </div>
+
+            <div class="galeryindex">
+                <img src="o1.JPG" id="photoindex">
+                <img src="o2.jpg" id="photoindex">
+                <img src="o3.jpg" id="photoindex">
+
+            </div>
+
+            <div class="socials">
+                <div class="fb"><div class="position"><a href="https://www.facebook.com/balbinanarolkach">
+                                    <i class="icon-facebook"></i></div>
+                            </div></a>
+                            <div class="yt">
+                                    <div class="position"><i class="icon-youtube"></i></div>
+                            </div>
+                            <div class="graduation">
+                                    <div class="position"><i class="icon-graduation-cap"></i></div>
+                            </div>
+                            <div class="gmail">
+                                    <div class="position"><i class= "icon-gmail"></i></div>
+                            </div>      
+                </div>
+
+            <div class="boxfooter">
+                        <div class= "footer">
+                                Doppio Roman Płotkowski Company & copy 2024 Wszelkie prawa zastrzeżone.
+                        </div>
+           </div>
+            <script src= "jquery-3.6.0.min.js"></script>
+    </div>
+   
+  </body>
+</html>

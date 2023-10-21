@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta name="description" content="DOPPIO">
+    <meta name="keywords" content="kawa">
+    <meta name="author" content="xxxx">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta charset="UTF-8">
+    <title>In-line</title>
+    <link rel="stylesheet" href="style.css" type="text/css"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="fontello.css"type="text/css"/>
+
+</head>
+
+
+  <body>
+    <div class="wrapper">
+            <div class="headerindex">
+                SPRZEDAŻ-SERWIS tel. (+48) 22 240 29 09
+                    <div class="logo">
+                        <span id= "logos"; style= "color: white;"></span><span id= "logos"; style= "color: black;"></span>
+                    </div>
+                    
+                  
+                   
+                    <button class="burger">
+                            <div class="line"></div>
+                            <div class="line"></div>
+                            <div class="line"></div>
+                    </button>
+
+            </div>
+
+            <div class= "nav">
+                    <ol class="active">
+                            <li><a href="pp.html">O kawie</a></li>
+                            <li><a href="ps.html">Produkty</a></li>
+                            <li><a href="ps.html">Oliwa z oliwek</a></li>
+                            <li><a href="mp.html">Serwis ekspresów</a></li>
+                            <li><a href="blog.html">Kontakt</a></li>
+                    </ol>
+
+          </div>
+          <script>
+
+          const mobileNav = document.querySelector('.ul');
+          const burgerBtn = document.querySelector('.burger');
+
+          burgerBtn.addEventListener('click', function(){
+            mobileNav.classList.toggle('active');
+          })
+          </script>
+
+
+            <script src= "jquery-3.6.0.min.js"></script>
+                    <script>
+                    $(document).ready(function() {
+                    var NavY = $('.nav').offset().top;
+
+                    var stickyNav = function(){
+                    var ScrollY = $(window).scrollTop();
+
+                    if (ScrollY > NavY) {
+                    $('.nav').addClass('sticky');
+                    } else {
+                    $('.nav').removeClass('sticky');
+                    }
+                    };
+
+                    stickyNav();
+
+                    $(window).scroll(function() {
+                    stickyNav();
+                    });
+                    });
+                    </script>
+
+            <div class="boxindex1">
+                
+                   <a href="blog.html"><img src="blank1.jpg"></a>
+                    <div class= "contentindex1">
+                        
+                        DOPPIO CAFFE SERVICE jest polską firmą specjalizującą się w branży HoReCa oraz serwisie ekspresów do kawy takich marek jak Lavazza, Saeco,De'Longhi,Siemens,Miele,Krups,Bosch.
+Jesteśmy również importerem włoskich kaw oraz oliwy z oliwek Cutrera. Od ponad 10 lat jesteśmy dystrybutorem włoskiej kawy Lavazza, kawy Miscela d’Oro. Oferujemy kawę ziarnistą, kawę w kapsułkach Nespresso ,kapsułki Lavazza oraz kawę w saszetkach e.s.e.Sprzedaż hurtowa i detaliczna kawy.
+
+W naszej ofercie znajdziecie Państwo ekspresy do kawy dla biur oraz gastronomii. Obecnie zatrudniamy wysoko wykwalifikowanych pracowników w działach: handlowym, obsługi klienta, serwisie i księgowości. Nasz młody, profesjonalny zespół, regularnie szkolony w siedzibach producentów, kieruje się w swoim działaniu zasadą zaspakajania potrzeb klienta. Dzięki zdobytemu wieloletniemu doświadczeniu, świadczymy usługi najwyższej  jakości. Zaufało już nam wielu klientów, Ty również przekonaj się, że warto korzystać z naszych usług!
+
+NASZYM CELEM jest kompleksowa obsługa Klienta w ramach świadczonych usług.
+                      <button class="translate">
+                        <a href="indexEng.html">Translate</a>
+                        </button>
+                            <div class= "arrow"><a href="gallerymp.html">
+                              <span></span>
+                              <span></span>
+                              <span></span>
+                            </div></a>
+                    </div>
+            </div>
+
+            <div class="galeryindex">
+                <img src="o1.JPG" id="photoindex">
+                <img src="o2.jpg" id="photoindex">
+                <img src="o3.jpg" id="photoindex">
+
+            </div>
+
+            <div class="socials">
+                <div class="fb"><div class="position"><a href="https://www.facebook.com/balbinanarolkach">
+                                    <i class="icon-facebook"></i></div>
+                            </div></a>
+                            <div class="yt">
+                                    <div class="position"><i class="icon-youtube"></i></div>
+                            </div>
+                            <div class="graduation">
+                                    <div class="position"><i class="icon-graduation-cap"></i></div>
+                            </div>
+                            <div class="gmail">
+                                    <div class="position"><i class= "icon-gmail"></i></div>
+                            </div>      
+                </div>
+
+            <div class="boxfooter">
+                        <div class= "footer">
+                                Doppio Roman Płotkowski Company & copy 2024 Wszelkie prawa zastrzeżone.
+                        </div>
+           </div>
+            <script src= "jquery-3.6.0.min.js"></script>
+    </div>
+   
+  </body>
+</html>
