@@ -30,13 +30,28 @@ body
 	background-image: linear-gradient(230deg, #020024 0%, #090979 35%, #00d4ff 100%);
 }
 
+#number
+{
+	color:#000000;
+	font-weight: bold;
+}
+
+#bold
+{
+	font-weight: bold;
+}
+
+#logacss
+{
+	padding-right: 40px;
+}
 .headerindex
 {
 	display: flex;
 	justify-content: center;
 	padding-top: 8px;
 	padding-bottom: 8px;
-	background-image: linear-gradient(230deg, #020024 0%, #090979 35%, #00d4ff 100%);
+	background-color: #FFFFFF;
 }
 
 .logo
@@ -395,8 +410,8 @@ ol > li > a
 	display: block;
 	width: 12px;
 	height: 12px;
-	border-bottom: 3px solid #06A8FF;
-	border-right: 3px solid #06A8FF;
+	border-bottom: 3px solid #FFFFFF;
+	border-right: 3px solid #FFFFFF;
 	transform: rotate(45deg);
 	margin: -10px;
 	animation: scroll 2s infinite;
@@ -478,6 +493,13 @@ ol > li > a
 {
 	width:280px;
 	height: 380px;
+	margin:5px;
+	z-index: 2;
+}
+#logacss
+{
+	width:800px;
+	height: px;
 	margin:5px;
 	z-index: 2;
 }
