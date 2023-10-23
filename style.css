@@ -30,28 +30,56 @@ body
 	background-image: linear-gradient(230deg, #020024 0%, #090979 35%, #00d4ff 100%);
 }
 
-#number
-{
-	color:#000000;
-	font-weight: bold;
-}
+
 
 #bold
 {
 	font-weight: bold;
 }
 
-#logacss
+#x
 {
-	padding-right: 40px;
+	justify-content: center;
+	display: flex;
 }
-.headerindex
+
+.boxfooter
 {
 	display: flex;
 	justify-content: center;
-	padding-top: 8px;
-	padding-bottom: 8px;
-	background-color: #FFFFFF;
+	background-color: #222222;
+	padding-top: 18px;
+	padding-bottom: 18px;
+	font-size: 8px;
+	width: 100%;
+	overflow: hidden;
+}
+
+.loga
+{
+  display: flex;
+  justify-content: center;
+  background-color: #ffffff;
+  padding-top: 18px;
+  padding-bottom: 18px;
+  font-size: 8px;
+  width: 100%;
+  overflow: hidden;
+}
+
+#logafirmy
+{
+	width: 700px;
+}
+.headerindex
+{
+  display: flex;
+  justify-content: center;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  background-color: #FFFFFF;
+  color: #000000;
+  font-weight: bold;
 }
 
 .logo
@@ -273,6 +301,15 @@ ol > li > a
 	font-weight: bold;
 	height: 20px;
 }
+
+ol > li > a > span
+{
+	font-weight: bold;
+	height: 30px;
+	font-size: 12px;
+
+}
+
 
 .sticky
 {
@@ -1090,17 +1127,7 @@ ol > li > a
 	background-color: #d95333;
 }
 
-.boxfooter
-{
-	display: flex;
-	justify-content: center;
-	background-color: #222222;
-	padding-top: 18px;
-	padding-bottom: 18px;
-	font-size: 8px;
-	width: 100%;
-	overflow: hidden;
-}
+
 
 
 
@@ -1203,6 +1230,15 @@ ol > li:first-child
 {
 	margin-left: 5px;
 	margin-right: 5px;
+}
+
+.contentindex1
+{
+	padding: 20px;
+	font-size: 15px;
+	margin-left:10px;
+	margin-right: 10px;
+	margin-top: 400px;
 }
 
 .contentmp3
@@ -1396,7 +1432,6 @@ ol > li:first-child
 	font-size: 15px;
 	margin-left:10px;
 	margin-right: 10px;
-	margin-top: 10px;
 }
 
 
