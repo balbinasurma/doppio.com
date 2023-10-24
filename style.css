@@ -67,8 +67,7 @@ body
 }
 #foto
 {
-	width:50%;
-	
+	width:70%;
 	display: flex;
 }
 .headerindex
@@ -528,15 +527,8 @@ ol > li > a > span
 }
 #photoindex
 {
-	width:280px;
+	width:480px;
 	height: 380px;
-	margin:5px;
-	z-index: 2;
-}
-#logacss
-{
-	width:800px;
-	height: px;
 	margin:5px;
 	z-index: 2;
 }
