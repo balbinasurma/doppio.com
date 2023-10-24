@@ -57,19 +57,19 @@ body
 
 .loga
 {
-  display: flex;
-  justify-content: center;
+	
+	justify-content: center;
+	display: flex;
   background-color: #ffffff;
   padding-top: 18px;
   padding-bottom: 18px;
-  font-size: 8px;
   width: 100%;
-  overflow: hidden;
 }
-
-#logafirmy
+#foto
 {
-	width: 700px;
+	width:50%;
+	
+	display: flex;
 }
 .headerindex
 {
