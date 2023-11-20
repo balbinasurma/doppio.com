@@ -41,6 +41,7 @@ body
 {
 	justify-content: center;
 	display: flex;
+	height: 200px;
 }
 
 .boxfooter
@@ -67,7 +68,8 @@ body
 }
 #foto
 {
-	width:70%;
+	width:40%;
+	
 	display: flex;
 }
 .headerindex
@@ -103,7 +105,8 @@ body
 
 .translate
 {
-	background-image: linear-gradient(230deg, #020024 0%, #3d250b 50%, #e3e26a 110%);
+	
+	background: #113617;
 	border-radius: 20px;
 	font-size: 14px;
 	padding: 3px 10px;
@@ -114,7 +117,7 @@ body
 
 .translate:hover
 {
-	background: #FF0000;
+	background: #1e6029;
     color: white;
     text-align: center;
     text-decoration: none;
@@ -274,7 +277,8 @@ ol > li
 	border-right: 0.5px solid;
 	border-color: white;
 	letter-spacing: 2px;
-	height: 40px;
+	height: 90%;
+	background-color: #113617;
 }
 
 ol > li:first-child
@@ -285,8 +289,8 @@ ol > li:first-child
 
 ol > li:hover
 {
-	background-color: #FF0000;
-	height: 100%;
+	background-color: #1e6029;
+	height: 90%;
 }
 
 ol > li:hover > a
@@ -527,8 +531,8 @@ ol > li > a > span
 }
 #photoindex
 {
-	width:480px;
-	height: 140px;
+	width:280px;
+	height: 440px;
 	margin:5px;
 	z-index: 2;
 }
@@ -1133,6 +1137,11 @@ ol > li > a > span
 	width: 255px;
 }
 
+ol > li
+{
+	
+	background-color: black;
+}
 .boxindex1
 {
 	flex-direction: column;
@@ -1162,7 +1171,7 @@ ol > li > a > span
 	position:absolute;
 	right: 0;
 	top: 15vh;
-	padding-top: 30px;
+	padding-top: 190px;
 	padding-bottom: 30px;
 	background: #000000;
 	height: 55vh;
@@ -1376,7 +1385,6 @@ font-size: 15px;
 	position:absolute;
 	right: 0;
 	top: 15vh;
-	padding-top: 30px;
 	padding-bottom: 30px;
 	background: #000000;
 	height: 55vh;
