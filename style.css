@@ -29,8 +29,10 @@ body
 	padding-bottom: 8px;
 	background-image: linear-gradient(230deg, #020024 0%, #090979 35%, #00d4ff 100%);
 }
-
-
+.logodoppio
+{
+	font-size: 17.5px;
+}
 
 #bold
 {
@@ -42,6 +44,7 @@ body
 	justify-content: center;
 	display: flex;
 	height: 200px;
+	padding-left: -5%;
 }
 
 .boxfooter
