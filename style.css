@@ -70,6 +70,7 @@ body
   padding-top: 18px;
   padding-bottom: 18px;
   width: 100%;
+  overflow: hidden;
 }
 #foto
 {
@@ -246,6 +247,7 @@ body
 	border-bottom: solid;
 	letter-spacing: 1px;
 	position: relative;
+	overflow: hidden;
 }
 
 ol
@@ -427,6 +429,7 @@ ol > li > a > span
 	display: flex;
 	justify-content: space-between;
 	flex-direction: row-reverse;
+	overflow: hidden;
 }
 
 .contentindex1
@@ -533,6 +536,7 @@ ol > li > a > span
 	margin-top: 0px;
 	flex-wrap: wrap;
 	z-index: -1;
+	overflow: hidden;
 }
 #photoindex
 {
@@ -1146,6 +1150,11 @@ ol > li
 {
 	
 	background-color: black;
+}
+
+ol > li:hover
+{
+	background-color: #113617;
 }
 .boxindex1
 {
