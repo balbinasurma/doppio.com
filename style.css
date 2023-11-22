@@ -430,6 +430,15 @@ ol > li > a > span
 	justify-content: space-between;
 	flex-direction: row-reverse;
 	overflow: hidden;
+	margin:0px;
+}
+.boxindex11
+{
+	display: flex;
+	justify-content: space-between;
+	flex-direction: row;
+	overflow: hidden;
+	padding-bottom: 40px;
 }
 
 .contentindex1
@@ -447,6 +456,29 @@ ol > li > a > span
 	line-height: 30px;
 }
 
+.contentindex11
+{
+	background: #090909;
+	border:none;
+	border-radius: 5px;
+	padding: 45px;
+	padding-top: 60px;
+	text-align: left;
+	font-size: 13px;
+	margin-top: 70px;
+	margin-bottom: 100px;
+	margin-right: -80px;
+	margin-left: 250px;
+	line-height: 30px;
+	max-width: 40%;
+	text-align: justify;
+	
+}
+
+#Romek
+{
+	padding:200px;
+}
 .arrow
 {
 	position: relative;
@@ -532,15 +564,27 @@ ol > li > a > span
 {
 	display: flex;
 	justify-content: center;
-	margin:60px;
+	margin:10px;
 	margin-top: 0px;
 	flex-wrap: wrap;
 	z-index: -1;
 	overflow: hidden;
 }
+
+.galeryindex11
+{
+	display: flex;
+	justify-content: center;
+	margin:10px;
+	margin-top: 0px;
+	flex-wrap: wrap;
+	z-index: -1;
+	overflow: hidden;
+	
+}
 #photoindex
 {
-	width:280px;
+	width:300px;
 	height: 440px;
 	margin:5px;
 	z-index: 2;
@@ -553,6 +597,17 @@ ol > li > a > span
 	margin:5px;
 	z-index: 2;
 }
+#photoindex11
+{
+	width:240px;
+	height: 350px;
+	margin:60px;
+	margin-right:350px;
+	margin-bottom: 100px;
+	margin-top: 100px;
+	z-index: 2;
+	border-radius: 110px;
+	border:white;
 
 .boxmp3
 {
